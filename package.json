@@ -4,7 +4,6 @@
   "private": true,
   "scripts": {
     "dev": "next dev",
-    "build": "next build",
     "start": "next start",
     "prod": "next build && next start",
     "lint": "bun run lint:biome && bun run lint:tsc",
@@ -12,9 +11,12 @@
     "lint:tsc": "bun tsc --noEmit"
   },
   "dependencies": {
+    "@biomejs/biome": "^1.9.4",
     "@chakra-ui/react": "2.8.2",
+    "@emotion/react": "^11.14.0",
     "eslint": "8.55.0",
     "eslint-config-next": "14.0.3",
+    "framer-motion": "^12.5.0",
     "million": "^2.6.4",
     "next": "14.0.3",
     "react": "18.2.0",
@@ -22,8 +24,7 @@
     "react-icons": "^4.12.0",
     "sass": "^1.86.0",
     "three": "^0.163.0",
-    "typescript": "5.3.3",
-    "@biomejs/biome": "^1.9.4"
+    "typescript": "5.3.3"
   },
   "devDependencies": {
     "@types/three": "^0.163.0"
