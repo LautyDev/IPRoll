@@ -1,4 +1,4 @@
-import { Alert, AlertDescription, AlertIcon, AlertTitle, Box, CloseButton, IconButton } from '@chakra-ui/react';
+import { Alert, AlertDescription, AlertIcon, AlertTitle, Box, IconButton } from '@chakra-ui/react';
 import { useEffect, useRef, useState } from 'react';
 import { FaPlay } from 'react-icons/fa';
 import * as THREE from 'three';
@@ -159,7 +159,6 @@ const ThreeTextAnimation = () => {
 							Your IP address has been copied to the clipboard.
 						</AlertDescription>
 					</Box>
-					<CloseButton position='absolute' right='8px' top='8px' />
 				</Alert>
 			)}
 			<Box ref={mountRef} width='100%' height='100%' onClick={handleIpClick}></Box>
