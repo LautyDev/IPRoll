@@ -23,10 +23,6 @@
 
 This is a joke web page in which, in addition to displaying your IP address in an eye-catching way (and rotating in 3D), a song plays while you interact with it.
 
-## :eyes: Demo
-
-https://iproll.lauty.dev/
-
 ## :white_check_mark: Requirements
 
 - [Node](https://nodejs.org/en/)
